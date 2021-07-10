@@ -27,7 +27,7 @@ const Login: React.FC = () => {
           history.push('/dash')
         }
       )
-    }, [data]
+    }, [data, history]
   )
 
   return (
